@@ -18,6 +18,7 @@
 		C39275A92885B56700F2133C /* StarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39275A82885B56700F2133C /* StarCell.swift */; };
 		C39275AB2885B74500F2133C /* WriteDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39275AA2885B74500F2133C /* WriteDiaryViewController.swift */; };
 		C39275AD2885B79400F2133C /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39275AC2885B79400F2133C /* DiaryDetailViewController.swift */; };
+		C39275AF2885D20500F2133C /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39275AE2885D20500F2133C /* Diary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		C39275A82885B56700F2133C /* StarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCell.swift; sourceTree = "<group>"; };
 		C39275AA2885B74500F2133C /* WriteDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDiaryViewController.swift; sourceTree = "<group>"; };
 		C39275AC2885B79400F2133C /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		C39275AE2885D20500F2133C /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				C39275A82885B56700F2133C /* StarCell.swift */,
 				C39275AA2885B74500F2133C /* WriteDiaryViewController.swift */,
 				C39275AC2885B79400F2133C /* DiaryDetailViewController.swift */,
+				C39275AE2885D20500F2133C /* Diary.swift */,
 			);
 			path = DiaryApp;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				C39275A92885B56700F2133C /* StarCell.swift in Sources */,
 				C39275912885AC8B00F2133C /* AppDelegate.swift in Sources */,
 				C39275932885AC8B00F2133C /* SceneDelegate.swift in Sources */,
+				C39275AF2885D20500F2133C /* Diary.swift in Sources */,
 				C39275AD2885B79400F2133C /* DiaryDetailViewController.swift in Sources */,
 				C39275A52885B31C00F2133C /* DiaryCell.swift in Sources */,
 				C39275A72885B34D00F2133C /* StarViewController.swift in Sources */,
