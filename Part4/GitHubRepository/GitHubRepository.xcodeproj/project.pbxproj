@@ -11,10 +11,12 @@
 		C3DA0BED28AA9AA80076C4E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DA0BEC28AA9AA80076C4E8 /* SceneDelegate.swift */; };
 		C3DA0BF428AA9AA90076C4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DA0BF328AA9AA90076C4E8 /* Assets.xcassets */; };
 		C3DA0BF728AA9AA90076C4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DA0BF528AA9AA90076C4E8 /* LaunchScreen.storyboard */; };
-		C3DA0C0028AA9B120076C4E8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C3DA0BFF28AA9B120076C4E8 /* RxSwift */; };
 		C3DA0C0228AA9B820076C4E8 /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DA0C0128AA9B820076C4E8 /* RepositoryListViewController.swift */; };
 		C3DA0C0428AA9C640076C4E8 /* RepositoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DA0C0328AA9C640076C4E8 /* RepositoryListCell.swift */; };
 		C3DA0C0728AA9CBD0076C4E8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3DA0C0628AA9CBD0076C4E8 /* SnapKit */; };
+		C3DA0C0928AAB2560076C4E8 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DA0C0828AAB2560076C4E8 /* Repository.swift */; };
+		C3DA0C1A28AABC160076C4E8 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = C3DA0C1928AABC160076C4E8 /* RxCocoa */; };
+		C3DA0C1C28AABC160076C4E8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C3DA0C1B28AABC160076C4E8 /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,7 @@
 		C3DA0BF828AA9AA90076C4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3DA0C0128AA9B820076C4E8 /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
 		C3DA0C0328AA9C640076C4E8 /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
+		C3DA0C0828AAB2560076C4E8 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DA0C0028AA9B120076C4E8 /* RxSwift in Frameworks */,
+				C3DA0C1C28AABC160076C4E8 /* RxSwift in Frameworks */,
+				C3DA0C1A28AABC160076C4E8 /* RxCocoa in Frameworks */,
 				C3DA0C0728AA9CBD0076C4E8 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +71,7 @@
 				C3DA0BF828AA9AA90076C4E8 /* Info.plist */,
 				C3DA0C0128AA9B820076C4E8 /* RepositoryListViewController.swift */,
 				C3DA0C0328AA9C640076C4E8 /* RepositoryListCell.swift */,
+				C3DA0C0828AAB2560076C4E8 /* Repository.swift */,
 			);
 			path = GitHubRepository;
 			sourceTree = "<group>";
@@ -88,8 +93,9 @@
 			);
 			name = GitHubRepository;
 			packageProductDependencies = (
-				C3DA0BFF28AA9B120076C4E8 /* RxSwift */,
 				C3DA0C0628AA9CBD0076C4E8 /* SnapKit */,
+				C3DA0C1928AABC160076C4E8 /* RxCocoa */,
+				C3DA0C1B28AABC160076C4E8 /* RxSwift */,
 			);
 			productName = GitHubRepository;
 			productReference = C3DA0BE728AA9AA80076C4E8 /* GitHubRepository.app */;
@@ -120,8 +126,8 @@
 			);
 			mainGroup = C3DA0BDE28AA9AA80076C4E8;
 			packageReferences = (
-				C3DA0BFE28AA9B120076C4E8 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				C3DA0C0528AA9CBD0076C4E8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				C3DA0C1828AABC160076C4E8 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = C3DA0BE828AA9AA80076C4E8 /* Products */;
 			projectDirPath = "";
@@ -151,6 +157,7 @@
 			files = (
 				C3DA0BEB28AA9AA80076C4E8 /* AppDelegate.swift in Sources */,
 				C3DA0BED28AA9AA80076C4E8 /* SceneDelegate.swift in Sources */,
+				C3DA0C0928AAB2560076C4E8 /* Repository.swift in Sources */,
 				C3DA0C0228AA9B820076C4E8 /* RepositoryListViewController.swift in Sources */,
 				C3DA0C0428AA9C640076C4E8 /* RepositoryListCell.swift in Sources */,
 			);
@@ -206,6 +213,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,6 +274,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -296,7 +305,6 @@
 				INFOPLIST_FILE = GitHubRepository/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +332,6 @@
 				INFOPLIST_FILE = GitHubRepository/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,14 +371,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C3DA0BFE28AA9B120076C4E8 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		C3DA0C0528AA9CBD0076C4E8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -380,18 +379,31 @@
 				kind = branch;
 			};
 		};
+		C3DA0C1828AABC160076C4E8 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C3DA0BFF28AA9B120076C4E8 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C3DA0BFE28AA9B120076C4E8 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
 		C3DA0C0628AA9CBD0076C4E8 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C3DA0C0528AA9CBD0076C4E8 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		C3DA0C1928AABC160076C4E8 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3DA0C1828AABC160076C4E8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		C3DA0C1B28AABC160076C4E8 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3DA0C1828AABC160076C4E8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
