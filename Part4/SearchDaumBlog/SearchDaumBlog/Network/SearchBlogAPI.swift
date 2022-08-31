@@ -17,7 +17,7 @@ struct SearchBlogAPI {
         var components = URLComponents()
         components.scheme = SearchBlogAPI.scheme
         components.host = SearchBlogAPI.host
-        components.path = SearchBlogAPI.path
+        components.path = SearchBlogAPI.path + "blog"
         
         components.queryItems = [
             URLQueryItem(name: "query", value: query),
