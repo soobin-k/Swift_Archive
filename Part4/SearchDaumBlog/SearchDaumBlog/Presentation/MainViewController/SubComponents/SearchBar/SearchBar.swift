@@ -15,15 +15,8 @@ class SearchBar: UISearchBar{
     
     let searchButton = UIButton()
     
-    //SearchBar 버튼 탭 이벤트
-    let searchButtonTapped = PublishRelay<Void>()
-    
-    //SearchBar 외부로 내보낼 이벤트
-    var shouldLoadResult = Observable<String>.of("")
-    
     override init(frame: CGRect){
         super.init(frame: frame)
-        bind()
         attribute()
         layout()
     }
@@ -32,24 +25,23 @@ class SearchBar: UISearchBar{
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func bind(){
+    func bind(_ viewModel: SearchBarViewModel){
+        self.rx.text
+            .bind(to: viewModel.queryText)
+            .disposed(by: disposeBag)
+        
         Observable
             .merge( // searchBar의 검색 버튼과, 커스텀 검색 버튼 눌렀을때 이벤트 통합
                 self.rx.searchButtonClicked.asObservable(),
                 searchButton.rx.tap.asObservable()
             )
-            .bind(to: searchButtonTapped)
+            .bind(to: viewModel.searchButtonTapped)
             .disposed(by: disposeBag)
         
-        searchButtonTapped
+        viewModel.searchButtonTapped
             .asSignal()
             .emit(to: self.rx.endEditing) // 커스텀 델리게이트와 연결
             .disposed(by: disposeBag)
-        
-        self.shouldLoadResult = searchButtonTapped // 트리거: 가장 최근의 text를 보내줘라
-            .withLatestFrom(self.rx.text){ $1 ?? ""} // 없으면 빈값으로
-            .filter{ !$0.isEmpty }
-            .distinctUntilChanged() // 동일한건 한번만 처리
     }
     
     private func attribute(){
