@@ -12,9 +12,6 @@
 		C3400CFD28C4FAE500303BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3400CFC28C4FAE500303BBC /* Assets.xcassets */; };
 		C3400D0028C4FAE500303BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3400CFE28C4FAE500303BBC /* LaunchScreen.storyboard */; };
 		C3400D0928C4FB4E00303BBC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3400D0828C4FB4E00303BBC /* SnapKit */; };
-		C3400D0C28C4FB6A00303BBC /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = C3400D0B28C4FB6A00303BBC /* RxCocoa */; };
-		C3400D0E28C4FB6A00303BBC /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = C3400D0D28C4FB6A00303BBC /* RxRelay */; };
-		C3400D1028C4FB6A00303BBC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C3400D0F28C4FB6A00303BBC /* RxSwift */; };
 		C3400D1428C4FC4E00303BBC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3400D1328C4FC4E00303BBC /* MainViewController.swift */; };
 		C3400D1628C4FDB600303BBC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3400D1528C4FDB600303BBC /* MainViewModel.swift */; };
 		C3400D1928C506A300303BBC /* TitleTextFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3400D1828C506A300303BBC /* TitleTextFieldViewModel.swift */; };
@@ -27,6 +24,8 @@
 		C3400D2B28C51B6900303BBC /* DetailWriteFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3400D2A28C51B6900303BBC /* DetailWriteFormCell.swift */; };
 		C3400D2D28C51B7700303BBC /* DetailWriteFormCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3400D2C28C51B7700303BBC /* DetailWriteFormCellViewModel.swift */; };
 		C3400D3028C520CE00303BBC /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3400D2F28C520CE00303BBC /* MainModel.swift */; };
+		C3400D3428C5243A00303BBC /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = C3400D3328C5243A00303BBC /* RxCocoa */; };
+		C3400D3628C5243A00303BBC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C3400D3528C5243A00303BBC /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,9 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3400D0E28C4FB6A00303BBC /* RxRelay in Frameworks */,
-				C3400D0C28C4FB6A00303BBC /* RxCocoa in Frameworks */,
-				C3400D1028C4FB6A00303BBC /* RxSwift in Frameworks */,
+				C3400D3628C5243A00303BBC /* RxSwift in Frameworks */,
+				C3400D3428C5243A00303BBC /* RxCocoa in Frameworks */,
 				C3400D0928C4FB4E00303BBC /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,9 +169,8 @@
 			name = UsedGoodsUpload;
 			packageProductDependencies = (
 				C3400D0828C4FB4E00303BBC /* SnapKit */,
-				C3400D0B28C4FB6A00303BBC /* RxCocoa */,
-				C3400D0D28C4FB6A00303BBC /* RxRelay */,
-				C3400D0F28C4FB6A00303BBC /* RxSwift */,
+				C3400D3328C5243A00303BBC /* RxCocoa */,
+				C3400D3528C5243A00303BBC /* RxSwift */,
 			);
 			productName = UsedGoodsUpload;
 			productReference = C3400CF028C4FAE500303BBC /* UsedGoodsUpload.app */;
@@ -205,7 +202,7 @@
 			mainGroup = C3400CE728C4FAE500303BBC;
 			packageReferences = (
 				C3400D0728C4FB4E00303BBC /* XCRemoteSwiftPackageReference "SnapKit" */,
-				C3400D0A28C4FB6A00303BBC /* XCRemoteSwiftPackageReference "RxSwift" */,
+				C3400D3228C5243A00303BBC /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = C3400CF128C4FAE500303BBC /* Products */;
 			projectDirPath = "";
@@ -464,7 +461,7 @@
 				kind = branch;
 			};
 		};
-		C3400D0A28C4FB6A00303BBC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		C3400D3228C5243A00303BBC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -480,19 +477,14 @@
 			package = C3400D0728C4FB4E00303BBC /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
-		C3400D0B28C4FB6A00303BBC /* RxCocoa */ = {
+		C3400D3328C5243A00303BBC /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C3400D0A28C4FB6A00303BBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = C3400D3228C5243A00303BBC /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		C3400D0D28C4FB6A00303BBC /* RxRelay */ = {
+		C3400D3528C5243A00303BBC /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C3400D0A28C4FB6A00303BBC /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-		C3400D0F28C4FB6A00303BBC /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C3400D0A28C4FB6A00303BBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = C3400D3228C5243A00303BBC /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
