@@ -11,16 +11,20 @@ struct ContentDetailView: View {
     @State var item: Item? // 상태를 받아야 view를 표현할 수 있음
     
     var body: some View {
-        VStack {
+        ZStack(alignment: .bottom) {
             if let item = item {
                 Image(uiImage: item.image)
+                    .resizable()
                     .aspectRatio(contentMode: .fit)
+                    .frame(width: 200)
                 
                 Text(item.description)
-                    .font(.title)
+                      .font(.caption)
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)
                     .padding()
+                    .foregroundColor(.primary)
+                    .background(Color.primary.colorInvert().opacity(0.75))
             } else {
                 Color.white
             }
