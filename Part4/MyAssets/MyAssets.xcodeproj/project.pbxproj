@@ -11,6 +11,7 @@
 		C37A338D2A30BE910036667B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A338C2A30BE910036667B /* ContentView.swift */; };
 		C37A338F2A30BE920036667B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37A338E2A30BE920036667B /* Assets.xcassets */; };
 		C37A33922A30BE920036667B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37A33912A30BE920036667B /* Preview Assets.xcassets */; };
+		C37A33992A30C89F0036667B /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A33982A30C89F0036667B /* NavigationBarWithButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C37A338C2A30BE910036667B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C37A338E2A30BE920036667B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C37A33912A30BE920036667B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C37A33982A30C89F0036667B /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				C37A338C2A30BE910036667B /* ContentView.swift */,
 				C37A338E2A30BE920036667B /* Assets.xcassets */,
 				C37A33902A30BE920036667B /* Preview Content */,
+				C37A33982A30C89F0036667B /* NavigationBarWithButton.swift */,
 			);
 			path = MyAssets;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37A33992A30C89F0036667B /* NavigationBarWithButton.swift in Sources */,
 				C37A338D2A30BE910036667B /* ContentView.swift in Sources */,
 				C37A338B2A30BE910036667B /* MyAssetsApp.swift in Sources */,
 			);
