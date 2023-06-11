@@ -12,6 +12,12 @@
 		C30B80292A35AF0700990023 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B80282A35AF0700990023 /* PageViewController.swift */; };
 		C30B802B2A35B20300990023 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B802A2A35B20300990023 /* PageControl.swift */; };
 		C30B802E2A35B35F00990023 /* AssetBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B802D2A35B35F00990023 /* AssetBannerView.swift */; };
+		C30B80312A35B7D200990023 /* assets.json in Resources */ = {isa = PBXBuildFile; fileRef = C30B80302A35B7D200990023 /* assets.json */; };
+		C30B80352A35B81500990023 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B80342A35B81500990023 /* Asset.swift */; };
+		C30B80372A35BCCA00990023 /* AssetSummaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B80362A35BCCA00990023 /* AssetSummaryData.swift */; };
+		C30B80392A35BCE800990023 /* AssetSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B80382A35BCE800990023 /* AssetSummaryView.swift */; };
+		C30B803B2A35BD4400990023 /* AssetSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B803A2A35BD4400990023 /* AssetSectionHeaderView.swift */; };
+		C30B803D2A35BD9600990023 /* AssetSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B803C2A35BD9600990023 /* AssetSectionView.swift */; };
 		C37A338B2A30BE910036667B /* MyAssetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A338A2A30BE910036667B /* MyAssetsApp.swift */; };
 		C37A338D2A30BE910036667B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A338C2A30BE910036667B /* ContentView.swift */; };
 		C37A338F2A30BE920036667B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37A338E2A30BE920036667B /* Assets.xcassets */; };
@@ -29,6 +35,12 @@
 		C30B80282A35AF0700990023 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		C30B802A2A35B20300990023 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		C30B802D2A35B35F00990023 /* AssetBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetBannerView.swift; sourceTree = "<group>"; };
+		C30B80302A35B7D200990023 /* assets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = assets.json; path = "../../../../예제/part4.-upper-intermediate--전체-/Ch1_MyAsset/MyAsset/assets.json"; sourceTree = "<group>"; };
+		C30B80342A35B81500990023 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		C30B80362A35BCCA00990023 /* AssetSummaryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryData.swift; sourceTree = "<group>"; };
+		C30B80382A35BCE800990023 /* AssetSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryView.swift; sourceTree = "<group>"; };
+		C30B803A2A35BD4400990023 /* AssetSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionHeaderView.swift; sourceTree = "<group>"; };
+		C30B803C2A35BD9600990023 /* AssetSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionView.swift; sourceTree = "<group>"; };
 		C37A33872A30BE910036667B /* MyAssets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAssets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37A338A2A30BE910036667B /* MyAssetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssetsApp.swift; sourceTree = "<group>"; };
 		C37A338C2A30BE910036667B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +69,7 @@
 			children = (
 				C37A339A2A30D8B10036667B /* AssetMenu.swift */,
 				C30B80222A35AB7B00990023 /* AssetBanner.swift */,
+				C30B80342A35B81500990023 /* Asset.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -81,6 +94,17 @@
 			path = AssetBannerView;
 			sourceTree = "<group>";
 		};
+		C30B803E2A35BEE200990023 /* AssetSummaryView */ = {
+			isa = PBXGroup;
+			children = (
+				C30B80362A35BCCA00990023 /* AssetSummaryData.swift */,
+				C30B80382A35BCE800990023 /* AssetSummaryView.swift */,
+				C30B803A2A35BD4400990023 /* AssetSectionHeaderView.swift */,
+				C30B803C2A35BD9600990023 /* AssetSectionView.swift */,
+			);
+			path = AssetSummaryView;
+			sourceTree = "<group>";
+		};
 		C37A337E2A30BE910036667B = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +124,7 @@
 		C37A33892A30BE910036667B /* MyAssets */ = {
 			isa = PBXGroup;
 			children = (
+				C30B80302A35B7D200990023 /* assets.json */,
 				C37A33902A30BE920036667B /* Preview Content */,
 				C37A338A2A30BE910036667B /* MyAssetsApp.swift */,
 				C37A338C2A30BE910036667B /* ContentView.swift */,
@@ -108,6 +133,7 @@
 				C30B80272A35AC1B00990023 /* AssetMenu */,
 				C30B80242A35AB8200990023 /* Entities */,
 				C30B802C2A35B34600990023 /* AssetBannerView */,
+				C30B803E2A35BEE200990023 /* AssetSummaryView */,
 			);
 			path = MyAssets;
 			sourceTree = "<group>";
@@ -179,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30B80312A35B7D200990023 /* assets.json in Resources */,
 				C37A33922A30BE920036667B /* Preview Assets.xcassets in Resources */,
 				C37A338F2A30BE920036667B /* Assets.xcassets in Resources */,
 			);
@@ -191,8 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30B803D2A35BD9600990023 /* AssetSectionView.swift in Sources */,
+				C30B803B2A35BD4400990023 /* AssetSectionHeaderView.swift in Sources */,
 				C37A33A12A30E07E0036667B /* AssetMenuGridView.swift in Sources */,
+				C30B80352A35B81500990023 /* Asset.swift in Sources */,
+				C30B80392A35BCE800990023 /* AssetSummaryView.swift in Sources */,
 				C30B802B2A35B20300990023 /* PageControl.swift in Sources */,
+				C30B80372A35BCCA00990023 /* AssetSummaryData.swift in Sources */,
 				C30B80292A35AF0700990023 /* PageViewController.swift in Sources */,
 				C37A33992A30C89F0036667B /* NavigationBarWithButton.swift in Sources */,
 				C30B80232A35AB7B00990023 /* AssetBanner.swift in Sources */,
