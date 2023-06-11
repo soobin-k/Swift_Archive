@@ -26,7 +26,7 @@ enum AssetMenu: String, Identifiable, Decodable {
         case .creditScore:
             return "number.circle"
         case .bankAccount:
-            return "bitcoinsign.circle"
+            return "banknote"
         case .loan:
             return "hand.wave"
         case .insurance:
