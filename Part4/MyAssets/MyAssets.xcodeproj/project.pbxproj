@@ -18,6 +18,8 @@
 		C30B80392A35BCE800990023 /* AssetSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B80382A35BCE800990023 /* AssetSummaryView.swift */; };
 		C30B803B2A35BD4400990023 /* AssetSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B803A2A35BD4400990023 /* AssetSectionHeaderView.swift */; };
 		C30B803D2A35BD9600990023 /* AssetSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B803C2A35BD9600990023 /* AssetSectionView.swift */; };
+		C30B80412A35C6C500990023 /* TabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B80402A35C6C500990023 /* TabMenuView.swift */; };
+		C30B80432A35C7AC00990023 /* AssetCardSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B80422A35C7AC00990023 /* AssetCardSectionView.swift */; };
 		C37A338B2A30BE910036667B /* MyAssetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A338A2A30BE910036667B /* MyAssetsApp.swift */; };
 		C37A338D2A30BE910036667B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A338C2A30BE910036667B /* ContentView.swift */; };
 		C37A338F2A30BE920036667B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37A338E2A30BE920036667B /* Assets.xcassets */; };
@@ -41,6 +43,9 @@
 		C30B80382A35BCE800990023 /* AssetSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryView.swift; sourceTree = "<group>"; };
 		C30B803A2A35BD4400990023 /* AssetSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionHeaderView.swift; sourceTree = "<group>"; };
 		C30B803C2A35BD9600990023 /* AssetSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionView.swift; sourceTree = "<group>"; };
+		C30B803F2A35C6BD00990023 /* assets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = assets.json; sourceTree = "<group>"; };
+		C30B80402A35C6C500990023 /* TabMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuView.swift; sourceTree = "<group>"; };
+		C30B80422A35C7AC00990023 /* AssetCardSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCardSectionView.swift; sourceTree = "<group>"; };
 		C37A33872A30BE910036667B /* MyAssets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAssets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37A338A2A30BE910036667B /* MyAssetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssetsApp.swift; sourceTree = "<group>"; };
 		C37A338C2A30BE910036667B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,10 +102,13 @@
 		C30B803E2A35BEE200990023 /* AssetSummaryView */ = {
 			isa = PBXGroup;
 			children = (
+				C30B803F2A35C6BD00990023 /* assets.json */,
 				C30B80362A35BCCA00990023 /* AssetSummaryData.swift */,
 				C30B80382A35BCE800990023 /* AssetSummaryView.swift */,
 				C30B803A2A35BD4400990023 /* AssetSectionHeaderView.swift */,
 				C30B803C2A35BD9600990023 /* AssetSectionView.swift */,
+				C30B80402A35C6C500990023 /* TabMenuView.swift */,
+				C30B80422A35C7AC00990023 /* AssetCardSectionView.swift */,
 			);
 			path = AssetSummaryView;
 			sourceTree = "<group>";
@@ -229,10 +237,12 @@
 				C37A33992A30C89F0036667B /* NavigationBarWithButton.swift in Sources */,
 				C30B80232A35AB7B00990023 /* AssetBanner.swift in Sources */,
 				C37A33A32A30E1AB0036667B /* AssetView.swift in Sources */,
+				C30B80412A35C6C500990023 /* TabMenuView.swift in Sources */,
 				C37A338D2A30BE910036667B /* ContentView.swift in Sources */,
 				C37A338B2A30BE910036667B /* MyAssetsApp.swift in Sources */,
 				C37A339B2A30D8B10036667B /* AssetMenu.swift in Sources */,
 				C30B802E2A35B35F00990023 /* AssetBannerView.swift in Sources */,
+				C30B80432A35C7AC00990023 /* AssetCardSectionView.swift in Sources */,
 				C30B80262A35ABD700990023 /* BannerCard.swift in Sources */,
 				C37A339F2A30DA9A0036667B /* AssetMenuButtonStyle.swift in Sources */,
 			);
