@@ -22,6 +22,7 @@
 		C34D9E7E2A486BE2007A2912 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D9E7D2A486BE2007A2912 /* OtherView.swift */; };
 		C34D9E812A48701D007A2912 /* SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D9E802A48701D007A2912 /* SettingMenu.swift */; };
 		C34D9E832A489F14007A2912 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D9E822A489F14007A2912 /* SettingView.swift */; };
+		C34D9E852A48A99B007A2912 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34D9E842A48A99B007A2912 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C34D9E7D2A486BE2007A2912 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		C34D9E802A48701D007A2912 /* SettingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenu.swift; sourceTree = "<group>"; };
 		C34D9E822A489F14007A2912 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		C34D9E842A48A99B007A2912 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				C34D9E772A4823F9007A2912 /* HomeHeaderView.swift */,
 				C34D9E6D2A481E75007A2912 /* EventSectionView.swift */,
 				C34D9E752A482389007A2912 /* HomeView.swift */,
+				C34D9E842A48A99B007A2912 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				C34D9E6C2A481BBF007A2912 /* MenuSuggestionSectinonView.swift in Sources */,
 				C34D9E762A482389007A2912 /* HomeView.swift in Sources */,
 				C34D9E832A489F14007A2912 /* SettingView.swift in Sources */,
+				C34D9E852A48A99B007A2912 /* HomeViewModel.swift in Sources */,
 				C34D9E702A481EB7007A2912 /* Event.swift in Sources */,
 				C34D9E7B2A48314B007A2912 /* User.swift in Sources */,
 				C33B22772A37612000C51474 /* CafeApp.swift in Sources */,
